@@ -10,8 +10,8 @@ class PDOMySQL
 
         $adresseServeurMySQL = "localhost";
         $nomDeDatabase = "films";
-        $username = "adminfilms";
-        $password = "@8./FPKO5ZJcFyEH";
+        $username = "admin";
+        $password = "QE8WFh3-JWovM4x5";
 
         $pdo = new \PDO("mysql:host=$adresseServeurMySQL;dbname=$nomDeDatabase",
             $username,
